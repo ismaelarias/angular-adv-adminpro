@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styles: ``
 })
 export class DashboardComponent {
+  public time = Date.now();
 
 }
